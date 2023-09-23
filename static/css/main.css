@@ -1,0 +1,67 @@
+.navbar {
+    background-color: white;
+}
+
+.navbar-brand {
+    color: green;
+}
+
+.nav-link {
+    color: green;
+}
+
+.nav-link:hover {
+    color: darkgreen;
+}
+
+.footer {
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+.footer h4 {
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: lightgreen;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.product {
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.product-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product-price {
+    margin-top: 5px;
+}
+
+.product-description {
+    margin-top: 5px;
+}
+

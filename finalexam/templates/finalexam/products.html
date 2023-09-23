@@ -1,0 +1,29 @@
+{% extends 'finalexam/main.html' %}
+{% load static %}
+{% block content %}
+
+<link rel = "stylesheet" type="text/css" href = "{% static 'css/main.css' %}">
+
+<div class="product-list">
+    <div class="product">
+        <img src="{% static 'images/placeholder-img.jpg' %}" alt="Product 1">
+        <h3 class="product-title">Product 1</h3>
+        <p class="product-price">RM74.99</p>
+        <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="product">
+        <img src="{% static 'images/placeholder-img.jpg' %}" alt="Product 2">
+        <h3 class="product-title">Product 2</h3>
+        <p class="product-price">RM 78.99</p>
+        <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="product">
+        <img src="{% static 'images/placeholder-img.jpg' %}" alt="Product 3">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-price">RM 49.99</p>
+        <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    
+</div>
+
+{% endblock content %}
