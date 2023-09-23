@@ -8,5 +8,5 @@
 ## Installation and Setup
 1. Install django in a virtual env
 2. Move all the files and folder in this repo in the folder with the virtual env
-3. activate the virtual env and run "Python manage.py runserver" in the terminal
+3. Activate the virtual env and run "Python manage.py runserver" in the terminal
 
